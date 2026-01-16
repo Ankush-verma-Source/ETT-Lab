@@ -4,6 +4,9 @@
 This project demonstrates how a static website can be hosted using Docker containers inside a Linux virtual machine. 
 The objective is to understand virtualization and containerization concepts used in modern server environments.
 
+The project uses a Type-2 (hosted) hypervisor to create a virtual machine, inside which Docker is installed and used
+to deploy a containerized Nginx web server hosting a static website.
+
 ## Technologies Used
 - Fedora Linux (Host OS)
 - Type-2 Hypervisor (VirtualBox / VMware)
@@ -16,7 +19,21 @@ The objective is to understand virtualization and containerization concepts used
 - To understand virtual machine setup using a hosted hypervisor
 - To deploy Docker inside a virtual machine
 - To host a static website using Docker containers
-- To study VM and Docker integration
+- To study the integration of virtualization and containerization
+
+## Documentation
+- Project overview: `docs/project-overview.md`
+- System architecture: `docs/architecture.md`
+
+## Development Phases
+- Phase 1: Planning and repository initialization ✔
+- Phase 2: Virtual machine setup
+- Phase 3: Docker installation and testing
+- Phase 4: Static website development
+- Phase 5: Dockerization of the website
+- Phase 6: Networking and access configuration
+- Phase 7: Documentation and analysis
+- Phase 8: Final testing and submission
 
 ## Project Status
-Phase 1: Planning and repository setup completed.
+Phase 1 completed. Repository structure and initial documentation are in place.
