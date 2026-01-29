@@ -1,16 +1,16 @@
 # Static Website Hosting Using Docker on a Virtual Machine
 
 ## Project Overview
-This project demonstrates how a static website can be hosted using Docker containers inside a Linux virtual machine. 
+This project demonstrates how a static website can be hosted using Docker containers inside a Linux virtual machine.
 The objective is to understand virtualization and containerization concepts used in modern server environments.
 
-The project uses a Type-2 (hosted) hypervisor to create a virtual machine, inside which Docker is installed and used
+The project uses a Type-2 hypervisor to create a virtual machine, inside which Docker will be installed
 to deploy a containerized Nginx web server hosting a static website.
 
 ## Technologies Used
-- Fedora Linux (Host OS)
+- Windows (Host OS)
 - Type-2 Hypervisor (VirtualBox / VMware)
-- Linux Virtual Machine
+- Ubuntu Server (Virtual Machine)
 - Docker
 - Nginx Web Server
 - HTML, CSS
@@ -19,15 +19,17 @@ to deploy a containerized Nginx web server hosting a static website.
 - To understand virtual machine setup using a hosted hypervisor
 - To deploy Docker inside a virtual machine
 - To host a static website using Docker containers
-- To study the integration of virtualization and containerization
+- To study virtualization and container integration
 
 ## Documentation
 - Project overview: `docs/project-overview.md`
 - System architecture: `docs/architecture.md`
+- Virtual machine setup: `docs/vm-setup.md`
+- VM networking configuration: `docs/vm-networking.md`
 
 ## Development Phases
 - Phase 1: Planning and repository initialization ✔
-- Phase 2: Virtual machine setup
+- Phase 2: Virtual machine setup ✔
 - Phase 3: Docker installation and testing
 - Phase 4: Static website development
 - Phase 5: Dockerization of the website
@@ -36,4 +38,4 @@ to deploy a containerized Nginx web server hosting a static website.
 - Phase 8: Final testing and submission
 
 ## Project Status
-Phase 1 completed. Repository structure and initial documentation are in place.
+Phase 2 completed. Ubuntu Server virtual machine has been successfully set up and configured.
