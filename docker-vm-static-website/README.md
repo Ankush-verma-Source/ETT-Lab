@@ -14,6 +14,7 @@ to deploy a containerized Nginx web server hosting a static website.
 - Docker
 - Nginx Web Server
 - HTML, CSS
+- Cloudflare Tunnel
 
 ## Project Objectives
 - To understand virtual machine setup using a hosted hypervisor
@@ -26,6 +27,7 @@ to deploy a containerized Nginx web server hosting a static website.
 - System architecture: `docs/architecture.md`
 - Virtual machine setup: `docs/vm-setup.md`
 - VM networking configuration: `docs/vm-networking.md`
+- Cloudflare Tunnel setup: `docs/cloudflare-tunnel.md`
 
 ## Development Phases
 - Phase 1: Planning and repository initialization ✔
