@@ -28,11 +28,13 @@ to deploy a containerized Nginx web server hosting a static website.
 - Virtual machine setup: `docs/vm-setup.md`
 - VM networking configuration: `docs/vm-networking.md`
 - Cloudflare Tunnel setup: `docs/cloudflare-tunnel.md`
+- Docker installation: `docs/docker-installation.md`
+
 
 ## Development Phases
 - Phase 1: Planning and repository initialization ✔
 - Phase 2: Virtual machine setup ✔
-- Phase 3: Docker installation and testing
+- Phase 3: Docker installation and testing ✔
 - Phase 4: Static website development
 - Phase 5: Dockerization of the website
 - Phase 6: Networking and access configuration
@@ -40,4 +42,4 @@ to deploy a containerized Nginx web server hosting a static website.
 - Phase 8: Final testing and submission
 
 ## Project Status
-Phase 2 completed. Ubuntu Server virtual machine has been successfully set up and configured.
+Phase 3 completed. Docker has been successfully installed and tested inside the virtual machine.
